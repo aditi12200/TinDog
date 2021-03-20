@@ -154,3 +154,53 @@ a{
     font-weight:900;
     margin: 5% 5% 5% 5%;
 }
+
+/* Call to Action Section */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+.cta-h3{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+.download-button-cta{
+    margin-top: 5%;
+    margin-left:2%;
+}
+
+.cta-button{
+    text-align: center;
+}
+
+/* Footer */
+
+#footer{
+    background-color: #fff;
+}
+
+.footerclass{
+    text-align: center;
+    padding: 5% 15% 1% ;
+}
+
+.footericons{
+    margin-left: 1%;
+    margin-bottom: 1.5%;
+}
+/* Media Query breakpoints */
+
+@media (max-width:986px){
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
